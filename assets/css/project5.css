@@ -1,0 +1,76 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.banner{
+    min-height: 180vh;
+    background-image: url(../images/hair\ cur.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width:768px){
+   .banner{
+    min-height: 60vh;
+   }
+}
+
+
+.navbar .nav-link{
+    color:grey;  
+}
+.navbar .nav-link:hover{
+    color:maroon;
+}
+.navigation-wrap.scroll-on{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100;
+    background:rgb(95, 94, 94);
+    box-shadow: 0 0.124rem 1.75rem 0 rgba(0, 0,0, 0.15);
+ 
+}
+.footer{
+    background-color: rgb(226, 226, 226);
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul a{
+    text-decoration: none;
+    color:black;
+}
+.footer ul a:hover{
+    text-decoration: underline;
+    color:maroon;
+}
+.footer .link{
+    margin: 10px;
+    font-size: 1.5rem;
+    color:black
+}
+.footer .link:hover{
+    background-color:maroon;
+    box-shadow: 0 0.124rem 1.75rem 0 white;
+
+}
+/* End Header Section */
+/* Start About page design */
+.about_banner{
+    background-color:RGB(50, 51, 55);
+    min-height: 30vh;
+}
+.goal{
+    background-color:#768388;
+}
+.book_now{
+    background-color: #768388;
+    min-height:50vh
+}
+/* start service page */
+.Hours{
+
+    background-color:#768388;
+}
